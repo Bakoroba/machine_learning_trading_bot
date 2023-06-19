@@ -23,6 +23,9 @@ Per the plot below, the baseline plot shows that the actual return is better tha
   - Performance for 1 months training data
 <img src="Delta_[Strategy - Actual]_dataset_1month.png">
 
+- Training dataset 6 months vs 1 month
+<img src="Delta_[Strategy - Actual]_dataset_svc.png">
+
 2. Tune the trading algorithm by adjusting the SMA input features.
 - Increasing the short SMA window to 20 while keeping long SMA to 100 increases the trading performance compared to the baseline:
 <img src="Delta_[Strategy - Actual]_dataset_short20.png">
@@ -30,6 +33,9 @@ Per the plot below, the baseline plot shows that the actual return is better tha
 - Decreasing the long SMA to 50 while keeping short SMA to 4 slightly increases the trading performance compared to the baseline.
 
 <img src="Delta_[Strategy - Actual]_dataset_long50.png">
+
+- SMA long vs SMA short
+<img src="Delta_[Strategy - Actual]_SMA_svc.png">
 
 3. Choose the set of parameters that best improved the trading algorithm returns
 
