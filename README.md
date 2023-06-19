@@ -33,5 +33,14 @@ The baseline plot shows that the actual return is better than the  strategy retu
 
 3. Choose the set of parameters that best improved the trading algorithm returns
 
-From the tuning plot below, it apprears that all the strategies are worst than the actual. Among the strategies, keeping the baseline values and only changing the training dataset to 6 months improves the trading algorithms the best.
+From the tuning plot below, it appears that all the strategies are worst than the actual. Among the strategies, keeping the baseline values and only changing the training dataset to 6 months improves the trading algorithms the best.
 <img src="Delta_[Strategy - Actual]_tuning_results.png">
+
+## Evaluate Stochastic Gradient Descent
+1. Using the baseline parameters, the new SGD ML strategy returns are worst than the actual returns.
+
+<img src="Delta_[Strategy - Actual]_SGD.png">
+
+2. It appears that the SGD modle improves the trading strategy in a similar way as teh best performer of the SVC i.e. changing the SVC  training dataset to 6 months. See the plot below
+
+<img src="Delta_[Strategy - Actual]_SVC_vs_SGD">
