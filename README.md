@@ -43,4 +43,4 @@ From the tuning plot below, it appears that all the strategies are worst than th
 
 2. It appears that the SGD modle improves the trading strategy in a similar way as teh best performer of the SVC i.e. changing the SVC  training dataset to 6 months. See the plot below
 
-<img src="Delta_[Strategy - Actual]_SVC_vs_SGD">
+<img src="Delta_[Strategy - Actual]_SVC_vs_SGD.png">
