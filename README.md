@@ -10,6 +10,7 @@ The objective is to enhance the existing trading signals with machine learning a
 
 ## Establish a Baseline Performance
 The baseline plot shows that the actual return is better than the  strategy return. The model needs tuning to get a better performance.
+
 <img src="Delta_[Strategy - Actual]_Baseline.png">
 
 ## Tune the Baseline Trading Algorithm 
