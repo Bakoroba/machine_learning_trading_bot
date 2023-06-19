@@ -29,7 +29,7 @@ The baseline plot shows that the actual return is better than the  strategy retu
 
 - Decreasing the long SMA to 50 while keeping short SMA to 4 :
 
-<img src="Delta_[Strategy - Actual]_dataset_long20.png">
+<img src="Delta_[Strategy - Actual]_dataset_long50.png">
 
 3. Choose the set of parameters that best improved the trading algorithm returns
 
