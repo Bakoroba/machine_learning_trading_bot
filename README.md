@@ -9,7 +9,7 @@ The objective is to enhance the existing trading signals with machine learning a
 - Create an Evaluation Report
 
 ## Establish a Baseline Performance
-The baseline plot shows that the actual return is better than the  strategy return. The model needs tuning to get a better performance.
+Per the plot below, the baseline plot shows that the actual return is better than the  strategy return. The model needs tuning to get a better performance.
 
 <img src="Delta_[Strategy - Actual]_Baseline.png">
 
@@ -24,10 +24,10 @@ The baseline plot shows that the actual return is better than the  strategy retu
 <img src="Delta_[Strategy - Actual]_dataset_1month.png">
 
 2. Tune the trading algorithm by adjusting the SMA input features.
-- Increasing the short SMA window to 20 while keeping long SMA to 100 :
+- Increasing the short SMA window to 20 while keeping long SMA to 100 increases the trading performance compared to the baseline:
 <img src="Delta_[Strategy - Actual]_dataset_short20.png">
 
-- Decreasing the long SMA to 50 while keeping short SMA to 4 :
+- Decreasing the long SMA to 50 while keeping short SMA to 4 slightly increases the trading performance compared to the baseline.
 
 <img src="Delta_[Strategy - Actual]_dataset_long50.png">
 
@@ -41,6 +41,6 @@ From the tuning plot below, it appears that all the strategies are worst than th
 
 <img src="Delta_[Strategy - Actual]_SGD.png">
 
-2. It appears that the SGD modle improves the trading strategy in a similar way as teh best performer of the SVC i.e. changing the SVC  training dataset to 6 months. See the plot below
+2. It appears that the SGD model improves the trading strategy in a similar way as the best performer of the SVC parameter tuning cases i.e. changing the SVC  training dataset to 6 months. See the plot below
 
 <img src="Delta_[Strategy - Actual]_SVC_vs_SGD.png">
